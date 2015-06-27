@@ -2,8 +2,6 @@
 html, body {
   height: 100%;
   background-color: lightseagreen;
-  padding: 0;
-  margin: 0;
 }
 
 nav {
@@ -11,18 +9,25 @@ nav {
   width: 200px;
   transform: skewX(15deg) translate(45px);
   padding-top: 60px;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
   background-color: paleturquoise;
   position: absolute;
 }
 nav:before {
-  transition: 1s ease;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
   content: "<";
   line-height: 50px;
   text-align: center;
   width: 50px;
   height: 50px;
-  border-radius: 25px;
   position: absolute;
   top: 0;
   left: 140px;
@@ -30,6 +35,10 @@ nav:before {
   font-size: 40px;
 }
 nav div {
+  -moz-transform: skewX(-12deg);
+  -o-transform: skewX(-12deg);
+  -ms-transform: skewX(-12deg);
+  -webkit-transform: skewX(-12deg);
   transform: skewX(-12deg);
 }
 nav div a {
@@ -59,24 +68,39 @@ nav div a.contact {
 }
 
 .hover:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   background-color: lightseagreen;
   color: #F2B6D8;
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  -webkit-transform: rotate(8deg);
   transform: rotate(8deg);
 }
 
 .close {
   margin-left: -160px;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
 }
 .close:before {
-  transition: 1s ease;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
   content: ">";
   line-height: 50px;
   text-align: center;
   width: 50px;
   height: 50px;
-  border-radius: 25px;
   position: absolute;
   top: 0;
   left: 150px;
