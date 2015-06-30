@@ -2,6 +2,8 @@
 html, body {
   height: 100%;
   background-color: lightseagreen;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -53,6 +55,11 @@ nav div a {
   font-size: 25px;
   font-family: 'Indie Flower', sans-serif, verdana;
   text-transform: uppercase;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 nav div a.acc {
   margin-left: -60px;
