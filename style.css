@@ -97,6 +97,10 @@ nav div a.contact {
   -ms-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
 }
+.close div a {
+  cursor: default;
+  pointer-events: none;
+}
 .close:before {
   -webkit-transition: 1s ease-in-out;
   -moz-transition: 1s ease-in-out;
